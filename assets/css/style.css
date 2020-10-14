@@ -138,24 +138,34 @@ main::after{
   font-weight: 500;
 }
 
-
-
 /* FOOTER */
+footer{
+  background-color: white;
+  color: #adadad;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
 .devname{
-  color: gray;
   font-size: 12px;
+  font-style: italic;
   text-align: center;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #adadad;
 }
 .foot{
-  background-color: white;
   width: 100%;
   height: 100px;
-  position: relative;
 }
-.foot i{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.footlogo{
+  height: 100%;
+  width: 33.3%;
+  text-align: center;
+  font-size: 30px;
+}
+.footlogo a i{
+  line-height: 50px;
+  color: #adadad;
+  padding: 20px;
+}
+.footlogo a i:hover{
+  color: blue;
 }
